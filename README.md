@@ -48,7 +48,7 @@ GoT-R1 pioneers advancements in reasoning-driven visual generation by:
 
 GoT-R1 builds upon the Generation Chain-of-Thought (GoT) framework by introducing reinforcement learning (RL) to refine the model's semantic-spatial reasoning capabilities. The base model is a unified MLLM architecture (e.g., Janus-Pro) that autoregressively generates a textual reasoning chain followed by image tokens.
 
-The RL process (detailed in Figure 2 of the paper) involves:
+The RL process involves:
 1.  Sampling multiple reasoning chains (GoT) and corresponding images for a given prompt.
 2.  Evaluating these samples using our multi-dimensional MLLM-based reward model.
 3.  Updating the model parameters using Group Relative Policy Optimization (GRPO) to encourage high-reward reasoning and generation strategies.
@@ -61,14 +61,14 @@ The RL process (detailed in Figure 2 of the paper) involves:
 
 ### MLLM-based Dual-stage Multi-dimensional Reward
 
-A core innovation of GoT-R1 is its comprehensive reward framework designed to address the unique challenges of applying RL to visual generation. This system (illustrated in Figure 3 of the paper) evaluates both the intermediate reasoning process and the final image:
+A core innovation of GoT-R1 is its comprehensive reward framework designed to address the unique challenges of applying RL to visual generation. This system evaluates both the intermediate reasoning process and the final image:
 
 -   **Prompt-to-Reasoning Semantic Reward ($R_{sem}$)**: Assesses if the reasoning chain accurately captures all semantic elements (objects, attributes) from the prompt without contradiction. It considers completeness, faithfulness, consistency, and clarity.
--   **Prompt-To-Reasoning Spatial Reward ($R_{spa}$)**: Evaluates the correctness of planned spatial arrangements in the reasoning chain relative to the prompt[cite: 36, 110, 122]. To enhance MLLM's spatial evaluation, textual coordinates are rendered as bounding boxes on a blank canvas for visual assessment.
+-   **Prompt-to-Reasoning Spatial Reward ($R_{spa}$)**: Evaluates the correctness of planned spatial arrangements in the reasoning chain relative to the prompt. To enhance MLLM's spatial evaluation, textual coordinates are rendered as bounding boxes on a blank canvas for visual assessment.
 -   **Reasoning-to-Image Reward ($R_{RI}$)**: Measures how faithfully the generated image reflects the planned reasoning, checking if objects appear at their specified locations using IoU between planned and grounded bounding boxes.
 -   **Prompt-to-Image Reward ($R_{PI}$)**: Assesses the overall quality and compositional accuracy of the final generated image against the initial prompt.
 
-The total reward $R_{total}$ is a product of these individual rewards, ensuring holistic optimization: $R_{total} = R_{PI} \cdot (R_{sem} + R_{spa}) \cdot R_{RI}$[cite: 111]. (Note: The formula in the paper is $R_{total}=R_{PI}*R_{PR}*R_{RI}*=R_{PI}*(R_{sem}+R_{spa})*R_{RI}$. 
+The total reward $R_{total}$ is a product of these individual rewards, ensuring holistic optimization: $R_{total} = R_{PI} \cdot (R_{sem} + R_{spa}) \cdot R_{RI}$.
 
 <div align="center">
   <img src="figures/reward.jpg" width="100%"/>
@@ -84,7 +84,7 @@ The total reward $R_{total}$ is a product of these individual rewards, ensuring 
 ### Installation
 Clone the repo and install dependent packages.
 ```bash
-git clone git@github.com:gogoduan/GoT-R1.git 
+git clone git@github.com:gogoduan/GoT-R1.git
 cd GoT-R1
 pip install -r requirements.txt
 ```
