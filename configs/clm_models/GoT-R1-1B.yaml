@@ -1,0 +1,2 @@
+_target_: transformers.AutoModelForCausalLM.from_pretrained
+pretrained_model_name_or_path: ckpts/GoT-R1-1B

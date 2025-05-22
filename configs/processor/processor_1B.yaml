@@ -1,0 +1,2 @@
+_target_: src.processor.processor.get_processor
+model_name: ckpts/GoT-R1-1B
