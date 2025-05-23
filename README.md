@@ -17,7 +17,7 @@
 </div>
 <hr>
 <div align="center" style="line-height: 1.2;">
-  <a href="[PAPER_PDF_LINK_PLACEHOLDER]" target="_blank"><b>Paper (PDF)</b></a> •
+  <a href="https://arxiv.org/abs/2505.17022" target="_blank"><b>Paper</b></a> •
   <a href="#introduction">Introduction</a> •
   <a href="#framework-overview">Framework</a> •
   <a href="#key-features">Key Features</a> •
@@ -113,6 +113,15 @@ This code is released under the MIT License.
 ### Citation
 If you find this work helpful, please consider citing:
 ```
+@misc{duan2025gotr1,
+      title={GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning}, 
+      author={Chengqi Duan and Rongyao Fang and Yuqing Wang and Kun Wang and Linjiang Huang and Xingyu Zeng and Hongsheng Li and Xihui Liu},
+      year={2025},
+      eprint={2505.17022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.17022}, 
+}
 ```
 
 ### Contact
