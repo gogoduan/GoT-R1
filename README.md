@@ -1,7 +1,7 @@
 # GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning
 <div align="center">
 <a href="[PROJECT_HOMEPAGE_LINK_PLACEHOLDER]"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="Home"></a>
-<a href="https://arxiv.org/abs/2505.17022"><img src="https://img.shields.io/badge/ArXiv-ID_Pending-red"></a>
+<a href="https://arxiv.org/abs/2505.17022"><img src="https://img.shields.io/badge/ArXiv-2505.17022-red"></a>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=gogoduan/GoT-R1" alt="visitors">
   
 [Chengqi Duan](https://scholar.google.com/citations?user=r9qb4ZwAAAAJ&hl=zh-CN)<sup>1\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=en)<sup>2\*</sup>, [Yuqing Wang](https://scholar.google.com/citations?user=QC7nNe0AAAAJ&hl=zh-CN&oi=ao)<sup>1\*</sup>, [Kun Wang]()<sup>3</sup>, [Linjiang Huang](https://leonhlj.github.io/)<sup>4</sup>, [Xingyu Zeng]()<sup> </sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>2</sup>, [Xihui Liu](https://xh-liu.github.io/)<sup>1 :envelope:</sup>
