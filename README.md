@@ -125,4 +125,4 @@ If you find this work helpful, please consider citing:
 ```
 
 ### Contact
-If you have any questions, please raise an issue or contact us at (duancq24@connect.hku.hk)[duancq24@connect.hku.hk].
+If you have any questions, please raise an issue or contact us at [duancq24@connect.hku.hk](mailto:duancq24@connect.hku.hk).
