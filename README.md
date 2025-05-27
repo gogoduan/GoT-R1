@@ -113,14 +113,11 @@ This code is released under the MIT License.
 ### Citation
 If you find this work helpful, please consider citing:
 ```
-@misc{duan2025gotr1,
-      title={GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning}, 
-      author={Chengqi Duan and Rongyao Fang and Yuqing Wang and Kun Wang and Linjiang Huang and Xingyu Zeng and Hongsheng Li and Xihui Liu},
-      year={2025},
-      eprint={2505.17022},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.17022}, 
+@article{duan2025got,
+  title={GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning},
+  author={Duan, Chengqi and Fang, Rongyao and Wang, Yuqing and Wang, Kun and Huang, Linjiang and Zeng, Xingyu and Li, Hongsheng and Liu, Xihui},
+  journal={arXiv preprint arXiv:2505.17022},
+  year={2025}
 }
 ```
 
