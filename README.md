@@ -111,7 +111,7 @@ python infer.py --ckpt_path <Your GoT-R1 checkpoint path>
 This code is released under the MIT License.
 
 ### Citation
-If you find this work helpful, please consider citing:
+If you find this work helpful, please consider citing our paper:
 ```
 @article{duan2025got,
   title={GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning},
