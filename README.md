@@ -1,4 +1,4 @@
-# GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning
+# [ICLR26] GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning
 <div align="center">
 <a href="[PROJECT_HOMEPAGE_LINK_PLACEHOLDER]"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="Home"></a>
 <a href="https://arxiv.org/abs/2505.17022"><img src="https://img.shields.io/badge/ArXiv-2505.17022-red"></a>
